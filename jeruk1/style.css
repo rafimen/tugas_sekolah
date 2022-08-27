@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+}
+
+.navigasi{
+    position: fixed;
+    width: 100%;
+}
+
+.atas{
+background-color:rgb(255,94,0) ;
+
+}
+
+.atas a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.kanan{
+    text-align: right;
+}
+
+.navbar{
+  background-color: rgb(255, 94, 0);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.navbar h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+.keranjang{
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+}
+
+.keranjang:hover{
+    cursor:pointer;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+}
+
+.navbar input{
+    margin-left: 10%;
+    width: 50%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+}
+
+.navbar button{
+    background-color: rgb(255, 94, 0);
+    border: none;
+    width: 70px;
+    height: 45px;
+    border: 2px solid white;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.navbar button:hover{
+    background-color: rgb(134, 36,0);
+    cursor: pointer;
+}
